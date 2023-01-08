@@ -303,13 +303,6 @@ body {
         height: 0;
     }
 }
-.sub-menu__active:hover {
-    height: 500px;
-    visibility: visible;
-    opacity: 1;
-    overflow: hidden;
-    z-index: 1;
-}
 .sub-menu {
     width: 230px;
     margin: 30px 50px 50px 0;
