@@ -266,10 +266,10 @@ body {
     animation: height__min__menu 1s;
 }
 .main-menu__points:hover .sub-menu__active {
-    height: 500px;
+    height: 470px;
     visibility: visible;
     opacity: 1;
-    overflow: hidden;
+    overflow: visible;
     z-index: 1;
     transition: all .3s ease-in-out;
     animation: height__max__menu 1s;
@@ -279,12 +279,12 @@ body {
         height: 0;
     }
     to {
-        height: 500px;
+        height: 470px;
     }
 }
 @keyframes height__min__menu{
     from {
-        height: 500px;
+        height: 470px;
     }
     to {
         height: 0;
